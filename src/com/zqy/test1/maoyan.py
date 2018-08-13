@@ -120,6 +120,9 @@ if __name__ == '__main__':
     from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
     import jieba
     import matplotlib.pyplot as plt
+    import os
+    from os import path
+
     # 将分词后的结果以空格连接
     words = " ".join(jieba.cut(df.content.str.cat(sep=" ")))
     # 导入背景图
@@ -128,6 +131,8 @@ if __name__ == '__main__':
     #设置停用词
     stopwords = STOPWORDS
     stopwords.add("电影")
+
+    FONT_PATH = os.environ.get("FONT_PATH", os.path.join(os.path.dirname(__file__), "simhei.ttf"))
 
     wc = WordCloud(stopwords=stopwords,
                    mask=backgroud_image, background_color="white", max_words=100)
