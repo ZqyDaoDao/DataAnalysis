@@ -42,3 +42,9 @@ if __name__ == '__main__':
     print(name_age.values)
 
     print(name_age.value_counts())
+
+
+    # 2. DataFrame
+    # DataFrame 是一个表格型的数据结构，它含有一组有序的列（类似于 index），
+    # 每列可以是不同的值类型（不像 ndarray 只能有一个 dtype）。
+    # 基本上可以把 DataFrame 看成是共享同一个 index 的 Series 的集合。
