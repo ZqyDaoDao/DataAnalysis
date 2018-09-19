@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4987af42-8c19-4774-9cdc-fadb6d36d729" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/Test/test7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pandas/03PandasIndex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pandas/PandasDataImport.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pandas/02PandasDataImport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pandas/Series_and_DataFrame.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pandas/01Series_and_DataFrame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pandas/03PandasIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pandas/03PandasIndex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03PandasIndex.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="03PandasIndex.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pandas/03PandasIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="135">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -105,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test7.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test7.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/test7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="627">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -154,8 +150,8 @@
         <option value="$PROJECT_DIR$/src/pandas/Series_and_DataFrame.py" />
         <option value="$PROJECT_DIR$/src/pandas/data.csv" />
         <option value="$PROJECT_DIR$/src/pandas/PandasDataImport.py" />
-        <option value="$PROJECT_DIR$/src/pandas/03PandasIndex.py" />
         <option value="$PROJECT_DIR$/src/Test/test7.py" />
+        <option value="$PROJECT_DIR$/src/pandas/03PandasIndex.py" />
       </list>
     </option>
   </component>
@@ -169,8 +165,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="736" />
-    <option name="y" value="29" />
+    <option name="x" value="632" />
+    <option name="y" value="58" />
     <option name="width" value="944" />
     <option name="height" value="985" />
   </component>
@@ -222,7 +218,7 @@
               <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test7">
+  <component name="RunManager" selected="Python.03PandasIndex">
     <configuration name="03PandasIndex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -385,8 +381,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test7" />
         <item itemvalue="Python.03PandasIndex" />
+        <item itemvalue="Python.test7" />
         <item itemvalue="Python.PandasDataImport" />
         <item itemvalue="Python.Series_and_DataFrame" />
         <item itemvalue="Python.test6" />
@@ -431,8 +427,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="29" width="944" height="985" extended-state="0" />
-    <editor active="true" />
+    <frame x="632" y="58" width="944" height="985" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -442,7 +437,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32882884" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25277162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25277162" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49830508" weight="0.32905138" />
       <window_info anchor="right" id="SciView" order="4" weight="0.6696231" />
@@ -736,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandas/03PandasIndex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/test6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -769,11 +757,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/test7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="627">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandas/03PandasIndex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="42" />
         </state>
       </provider>
     </entry>

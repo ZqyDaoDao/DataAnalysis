@@ -25,3 +25,21 @@ if __name__ == '__main__':
 
     print('# 将行顺序反转，列只取[''street'',''name'']两列')
     print(data.reindex(index=data.index[::-1], columns=['street', 'Jan']))
+
+    # print("使用method可以按照特定的形式补齐NaN值，使用fill_value可以指定将NaN值指定为特定的值。")
+    # print(data.reindex(index=data.index[::-1], method='ffill', columns=['Feb', 'Jan']))
+    #
+    # print(data.reindex(index=data.index[::-1], fill_value='1', columns=['street', 'Jan']))
+
+    # new_index = data.index[::-1]
+    # col = ['street', 'Jan']
+    # print(data.ix[new_index, col])
+
+    print("整理之前的数据: ")
+    print(data)
+    print("整理之后的数据: ")
+    print(data.drop([1, 3]))
+
+
+    print("使用 . 方式索引列出指定数据")
+    print(data.city)
